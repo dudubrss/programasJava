@@ -8,7 +8,7 @@ public class Funcionario extends Pessoa{
     
     public Funcionario(String nome,Double altura,Double peso, int matricula){
         super(nome, altura, peso);
-        //super herda todos os métodos e atributos e são atribuídos aos parâmetros dentro do construtor Pessoa
+        //super herda todos os métodos e atributos do construtor Pessoa e são atribuídos aos parâmetros dentro do construtor Funcionário
         this.matricula = matricula;
     }
         public void printFuncionario(){
