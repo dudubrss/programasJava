@@ -12,6 +12,7 @@ public class Funcionario extends Pessoa{
         this.matricula = matricula;
     }
         public void printFuncionario(){
+            //método para imprimir os atributos herdados da classe Pessoa (String nome, Double Altura e Double peso) + o atributo int matricula que foi criado na classe funcionário
             System.out.println("matrícula :" +matricula);
         }
     }
