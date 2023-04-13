@@ -3,6 +3,7 @@ package exercício1;
 
 
 public class Pessoa {
+    //superclass
     private String nome;
     private Double altura;
     private Double peso;
